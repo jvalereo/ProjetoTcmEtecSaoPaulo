@@ -1,0 +1,334 @@
+﻿/* SITE-PROJETO TCM: TRABALHO DE CONCLUSÃO DE MATÉRIA  - CURSO TÉCNICO EM INFORMÁTICA - ETESP*/
+/*Trabalho de conclusão de materia valendo mensão de nota, desenvolver site básico em sala de aula*/
+/*Tema do projeto: Devenvolver um site Odontológico para a clinicia Sidiney , projeto individual*/
+/*Site não responsivo, não é tcc de conclusão de trabalho, só treinamento e aprendendo a desenvolver técnica básica de TPI*/
+/*ETEC DE SÃO PAULO*/
+/*Data:  10/11/ 2015*/
+/*Aluno: Jonas Valereo - Técnico em Informática*/
+
+/*Formatação total do corpo do site em css*/
+
+*{
+
+    margin:  0px;
+    padding: 0px;
+    border: 0px;
+}
+
+/*Formatação, html, body do site*/
+
+html, body{
+
+    width: 100%;
+    min-height: 100%;
+    margin: 0px;
+}
+
+/*Formatação, body do site*/
+
+body{
+
+    background-color:#ededed;
+    background-attachment: fixed;
+    overflow-x: hidden;
+
+}
+
+/*Formatação, h1 do site*/
+
+h1{
+
+    font-family: Arial, Calibri, Tahoma;
+    font-size: 17px;
+    text-decoration: none;
+    float: left;
+    left: 135px;
+    position: relative;
+    margin: 20px auto;
+
+}
+
+h3{
+
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+/*Formatação, container do site*/
+
+#container{
+    width: 100%;
+    height: 1500px;
+    margin: 0 auto;
+    min-height: 100%;
+    position: relative;
+
+}
+
+.form1{
+
+    margin: 0 auto;
+
+
+
+}
+
+/*Formatação, nav , Menu princial do site*/
+
+div.nav{
+
+    width: 100%;
+    height: 70px;
+    background-color: #d2f5f0;
+    float: left;
+
+}
+
+/*Formatação, nav , ul do site*/
+
+div.nav ul{
+
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    position: inherit;
+    font-family: Arial, Calibri, Tahoma;
+    display: block;
+    list-style-type: none;
+}
+
+/*Formatação, nav, li do site*/
+
+div.nav li{
+    width: 100%;
+    list-style:none;
+    display: inline;
+    font-family: Arial,Calibri,Tahoma;
+    font-size: 18px;
+}
+
+/*Formatação, nav li -a  do site*/
+
+div.nav li a{
+
+    display: inline;
+    width: 100%;
+    padding: 24px 25px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+
+}
+
+/*Formatação, nav li a:hover site*/
+
+div.nav li a:hover{
+    color: white;
+    background-color: #c6c6c6;
+    font-size: 20px;
+    top: 10px;
+
+
+}
+
+/*Formatação, nav li, ul do site*/
+
+div.nav li ul{
+
+    display: none;
+
+}
+
+/*Formatação, nav li:hover ul site*/
+
+div.nav li:hover ul{
+
+    display: block;
+
+}
+
+/*Formatação, nav-fixed do site*/
+
+div.nav-fixed{
+
+   position:fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: 999;
+
+
+}
+
+/*Formatação, div bannerlinks, div video, conteudo site*/
+
+
+
+#video{
+
+    position: absolute;
+    float: left;
+    top: 320px;
+    padding-left: 320px; 
+    
+}
+
+
+
+/*Formatação, conteudo do site*/
+
+#conteudo{
+
+    background-color:#fff;
+    width: 80%;
+    margin: 130px auto;
+    margin-bottom: 50px auto;
+    height: 900px;
+    font-family:Arial,Calibri,Tahoma;
+    font-size: 15px;
+    position: relative;
+    
+    
+}
+
+
+/*Formatação, rodape do site*/
+
+#rodape{
+
+    background-color:#d2f5f0;
+    width: 100%;
+    height: 350px;
+    position:absolute;
+    margin: -130px auto;
+}
+
+
+
+/*Formatação,  da nav abaixo rodape do site*/
+
+.baixo{
+    width: 100%;
+    height: 0px;
+    float: left;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+/*Formatação,  da nav abaixo ul rodape do site*/
+
+.baixo ul{
+    width: 100%;
+    text-align:left;
+    left: 0px;
+    position: inherit;
+    font-family: Arial, Calibri, Tahoma;
+    display: block;
+    list-style-type: none;
+}
+
+/*Formatação,  da nav abaixo li a  rodape do site*/
+
+.baixo li a{
+    width: 100%;
+    line-height: 30px;
+    display: block;
+    font-family: Arial, Calibri, Tahoma;
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+
+}
+
+/*Formatação,  center abaixo  rodape do site*/
+
+#center{
+
+    width: 1250px;
+    float: left;
+    margin: 0px 230px;
+
+}
+
+/*Formatação,  abaixo rodape do site*/
+
+.baixo{
+    float: left;
+    width: 200px;
+    color: #000;
+    padding: 20px;
+}
+
+/*Formatação,   abaixo p  rodape do site*/
+
+.baixo p{
+
+    margin-top: 10px;
+
+}
+
+
+
+
+
+/*Formatação,  link image do rodape do site*/
+
+#link1{
+    position: relative;
+    left: 180px;
+    top: 70px;
+ 
+}
+
+#link2{
+    position: relative;
+    left: 650px;
+    top: -110px;
+   
+}
+
+#link3{
+
+    position: relative;
+    left: 180px;
+    top: 20px;
+  
+}
+
+#link4{
+    position: relative;
+    left: 650px;
+    top: -150px; 
+   
+}
+
+/*Formatação,  marca registra do rodape do site*/
+
+.marcaregis{
+    width: 100%;
+    float: left;
+    
+    
+    
+
+}
+
+.marcaregis p{
+    float: left;
+    width: 950px;
+    color:#000;
+    font-family: Arial, Calibri, Tahoma;
+    font-size: 12px;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    top: 230px;
+    
+
+}
