@@ -36,7 +36,7 @@
 - Tema do projeto: Devenvolver um site Odontológico para a clinicia Sidiney , projeto individual
 - Site não é  responsivo, não é tcc de conclusão de trabalho, só treinamento e aprendendo a desenvolver técnica básica de TPI no 2º modulo Etec de São Paulo
 - INSTITUIÇÃO DE ENSINO: ETEC DE SÃO PAULO - 2º Modulo do Curso Técnico em Informática
-- Obs: Retirei os video deste site ,porque não comportar no GitHub, esse projeto não tem banco de dados é execultado localhost , maquina local 
+- Obs: Retirei os video deste site ,porque não comportar no GitHub, esse projeto não tem banco de dados é executado localhost , maquina local 
 - Data:  10/11/ 2015
 - Aluno: Jonas Valereo - Técnico em Informática
 - IDE Visual Studio
